@@ -7,5 +7,6 @@ using namespace std;
 
 int main() {
     cout << "Our names are:" << endl;
+    cout << "Nikita" << endl;
     return 0;
 }
