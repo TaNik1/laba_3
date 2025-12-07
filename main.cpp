@@ -33,7 +33,12 @@ void print_lines_to_console(const vector<string>& lines)
 // Функция №3
 void write_lines_to_file(const string& output_filename, const vector<string>& lines)
 {
+    ofstream file(output_filename);
 
+    for (const auto& line : lines)
+    {
+        file << line << endl;
+    }
 }
 
 int main()
