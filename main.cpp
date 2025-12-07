@@ -18,6 +18,7 @@ void read_lines_from_file(const string& input_filename, vector<string>& lines)
     {
         lines.push_back(line);
     }
+
 }
 
 // Функция №2
