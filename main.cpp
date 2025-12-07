@@ -11,6 +11,13 @@ using namespace std;
 // Функция №1
 void read_lines_from_file(const string& input_filename, vector<string>& lines)
 {
+    ifstream file(input_filename);
+    string line;
+
+    while (getline(file, line))
+    {
+        lines.push_back(line);
+    }
 
 }
 
