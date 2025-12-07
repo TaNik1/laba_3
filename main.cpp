@@ -17,7 +17,10 @@ void read_lines_from_file(const string& input_filename, vector<string>& lines)
 // Функция №2
 void print_lines_to_console(const vector<string>& lines)
 {
-
+    for (const auto& line : lines)
+    {
+        cout << line << endl;
+    }
 }
 
 // Функция №3
